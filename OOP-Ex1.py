@@ -3,17 +3,20 @@ class Person:
     # attributes
     name = ""
     address = ""
+
     # methods
     def __init__(self, name, address):
         self.name = name
         self.address = address
-    def setName(self, name):
-        pass
-    def getName(self):
-        pass
-    def setAddress(self, address):
-        pass
-    def getAddress(self):
+
+    def set_name(self, name):
         pass
 
-    
+    def get_name(self):
+        pass
+
+    def set_address(self, address):
+        pass
+
+    def get_address(self):
+        pass
